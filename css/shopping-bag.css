@@ -381,6 +381,10 @@ footer {
     display: none;
 }
 @media only screen and  (max-width: 1024px) {
+    .oldPrice::before{
+        top: 10%;
+        left: 35px;
+    }
     .footer-top {
         display: flex;
         width: 100%;
@@ -442,6 +446,10 @@ footer {
     .block-item {
         width: 100%;
         margin: 15px auto;
+    }
+    .oldPrice::before{
+        top: 10%;
+        left: 35px;
     }
     .checkout {
         flex-direction: column;
